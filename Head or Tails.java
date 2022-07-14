@@ -8,10 +8,6 @@ Scanner s = new Scanner(System.in);
 int a = 0;
 int b = 0;
 
-System.out.println("Who are you?");
-String name = s.next();
-System.out.println("hello, "+ name +"!");
-
 System.out.println("Tossong a coin...");
 for(int i=0;i<3;i++){
 	int random = r.nextInt(2);
