@@ -25,9 +25,9 @@ for(int i=0;i<3;i++){
 	}
 	System.out.println("Heads: "+a+", Tails: "+b);
 	if(a>b){
-		System.out.println("You won!");
+		System.out.println(name+" won!");
 	}else if(b>a){
-		System.out.println("You lost");
+		System.out.println(name+" lost");
 	}
 }
 }
